@@ -1,0 +1,3 @@
+"""
+Overwolf application.
+"""

@@ -1,0 +1,3 @@
+"""
+Overwolf event stream service.
+"""
