@@ -4,7 +4,7 @@ updates:
     assignees:
       - swimmwatch
     directory: "/"
-    target-branch: develop
+    target-branch: dev
     schedule:
       interval: "daily"
     labels:
@@ -15,7 +15,7 @@ updates:
     assignees:
       - swimmwatch
     directory: "/services/web/react-app"
-    target-branch: develop
+    target-branch: dev
     schedule:
       interval: "daily"
     labels:
@@ -26,7 +26,7 @@ updates:
     assignees:
       - swimmwatch
     directory: "/services/overwolf_app"
-    target-branch: develop
+    target-branch: dev
     schedule:
       interval: "daily"
     labels:
@@ -37,7 +37,7 @@ updates:
     assignees:
       - swimmwatch
     directory: "/"
-    target-branch: develop
+    target-branch: dev
     schedule:
       interval: "daily"
     labels:
