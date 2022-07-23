@@ -4,7 +4,7 @@ updates:
     assignees:
       - swimmwatch
     directory: "/"
-    target-branch: develop
+    target-branch: dev
     schedule:
       interval: "daily"
     labels:
@@ -14,8 +14,19 @@ updates:
   - package-ecosystem: "npm"
     assignees:
       - swimmwatch
-    directory: "/"
-    target-branch: develop
+    directory: "/services/web/react-app"
+    target-branch: dev
+    schedule:
+      interval: "daily"
+    labels:
+      - "npm"
+      - "dependencies"
+
+  - package-ecosystem: "npm"
+    assignees:
+      - swimmwatch
+    directory: "/services/overwolf_app"
+    target-branch: dev
     schedule:
       interval: "daily"
     labels:
@@ -26,7 +37,7 @@ updates:
     assignees:
       - swimmwatch
     directory: "/"
-    target-branch: develop
+    target-branch: dev
     schedule:
       interval: "daily"
     labels:
